@@ -9,7 +9,7 @@ const CarDetailsSection = () => {
       {/* Image Gallery */}
       <div className="lg:w-1/2">
         <div className="relative bg-blue-200 rounded-lg overflow-hidden">
-          <Image
+          <img
             src="/l.png"
             alt="Car"
             className="w-full h-64 object-cover"
@@ -19,14 +19,14 @@ const CarDetailsSection = () => {
         </div>
         {/* Thumbnail Gallery */}
         <div className="flex gap-4 mt-4 overflow-x-auto lg:overflow-visible">
-          <Image
+          <img
             src="/m.png"
             alt="Car Interior"
             className="w-20 h-20 rounded-lg object-cover border border-gray-200"
             width={900}
             height={900}
           />
-          <Image
+          <img
             src="/n.png"
             alt="Car Seats"
             className="w-20 h-20 rounded-lg object-cover border border-gray-200"
