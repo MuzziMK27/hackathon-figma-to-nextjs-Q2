@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FaHeart} from "react-icons/fa";
 
 export default function RecommendedCars() {
-  const [cars, setCars] = useState([
+  const [cars ] = useState([
     {
       id: 1,
       name: "All New Rush",
