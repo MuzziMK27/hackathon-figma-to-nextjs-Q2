@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { FaCcVisa, FaCcPaypal, FaCheckCircle ,FaUser ,FaPhone ,FaMapMarkerAlt,FaCity} from 'react-icons/fa';
 import { RiCheckboxBlankLine } from 'react-icons/ri';
 
